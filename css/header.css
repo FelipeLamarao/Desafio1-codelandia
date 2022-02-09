@@ -1,0 +1,25 @@
+header{
+    background: var(--linear);
+    width: 100%;
+    height: 30vh;
+    font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 20%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.header_nav{
+   border: 1px solid red;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: var(--white);
+}

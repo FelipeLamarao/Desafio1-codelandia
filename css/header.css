@@ -12,14 +12,53 @@ header{
     flex-direction: column;
     margin: 0 20%;
     height: 100%;
-    border: 1px solid red;
 }
 
-.header_nav{
-   border: 1px solid red;
+.header_nav{   
    box-sizing: border-box;
    display: flex;
    justify-content: space-between;
    align-items: center;
    color: var(--white);
+   margin-top: 3%;
+   margin-bottom: 6%;
+   font-weight: 2px;
+   font-size: 1.2rem;
+}
+
+.header_search {
+    box-sizing: border-box;
+    min-height: 25%;
+    position: relative;
+}
+
+.header_input{
+    box-sizing: border-box;
+    width:900px;
+    height:65px;
+    left: 270px;
+    top: 144px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    border-color: var(--blue);
+    border-style: none;
+    color: var(--white);
+    padding-left: 5%;
+    font-size: 1.2rem;
+}
+
+.header_input::-webkit-input-placeholder{
+    color: var(--white);
+}
+
+.header_input:focus{
+    box-shadow: 0 0 0 0 ;
+    outline: 0;
+}
+
+.header_search i {
+    position:absolute;
+    color: var(--white);
+    top: 30%;
+    left: 2%;
 }
